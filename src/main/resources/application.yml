@@ -1,0 +1,13 @@
+server:
+    port: 8000
+
+spring:
+    h2:
+        console:
+            enabled: true
+            path: /h2-console
+
+graphiql:
+    mapping: /graphiql
+    endpoint: /graphql
+    enabled: true
